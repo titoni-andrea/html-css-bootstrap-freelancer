@@ -1,3 +1,68 @@
+:root {
+    --color-primary: #13BC9C;
+    --color-secondary: #2D3E50;
+}
+
+
 .cont_nav {
-    background-color: #2D3E50;
+    background-color: var(--color-secondary);
+}
+
+.cont_jumbo {
+    background-color: var(--color-primary);
+}
+
+.riga_bianca {
+    width: 200px;
+    height: 3px;
+    background-color: white;
+    border-radius: 3px;
+
+}
+
+.rid-img {
+    width: 15%;
+}
+
+.titolo_sezione {
+    color: var(--color-secondary);
+}
+
+.riga_scura {
+    width: 200px;
+    height: 3px;
+    background-color: var(--color-secondary);
+    border-radius: 3px;
+
+}
+
+.icona_scura {
+    color: var(--color-secondary);
+}
+
+.cont_about {
+    background-color: var(--color-primary);
+}
+
+.cont_about .titolo_sezione {
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+footer i {
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    padding: 1rem;
+    font-size: 1rem;
+    line-height: 1rem;
+    margin-bottom: 1rem;
 }
